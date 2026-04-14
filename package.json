@@ -1,0 +1,11 @@
+{
+  "name": "knowledge-garden",
+  "version": "1.0.0",
+  "description": "A static blog with Notes and Skill Tree modules.",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve . -p 3000",
+    "dev": "node build.js && npx serve . -p 3000"
+  },
+  "license": "MIT"
+}
