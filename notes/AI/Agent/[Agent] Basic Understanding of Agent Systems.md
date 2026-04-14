@@ -93,7 +93,7 @@ Suppose you are using Claude Desktop and asking: "What documents are on my deskt
 3. **Server**: are lightweight programs that each expose specific capabilities through MCP. <br>
    The file system MCP Server is called, executes the actual file scanning operation, accesses the desktop directory, and returns the list of found documents.
 
-How does MCP work?
+## How does MCP work?
 ![the interaction between an MCP Client and an MCP Server](https://global.discourse-cdn.com/dlai/optimized/3X/3/1/315fa3ff153faf1700fd84260ef2d2bc78264e5f_2_1035x543.jpeg)
 1. **Tools** are actions or functions that the client can call. (methods to access data)
 2. **Resources** are read-only data exposed by the server. (data)
@@ -135,6 +135,17 @@ def fetch_doc(doc_id: str):
     # Return the contents of a doc
 ```
 
+Expose a **Prompt Template** -> high quality prompts, efficient prompt engineering:
+```
+@mcp.prompt(
+    name="format",
+    description="Rewrites the contents of a document in Markdown format",
+)
+def format_document(
+    doc_id: str,
+) -> list[base.Message]:
+    # Return a list of messages
+```
 
 # References
 1. [Building Agent Systems from Scratch : Hello-Agents](https://datawhalechina.github.io/hello-agents/#/)
