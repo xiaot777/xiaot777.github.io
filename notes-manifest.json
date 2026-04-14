@@ -1,0 +1,63 @@
+{
+  "generated": "2026-04-14T03:38:04.812Z",
+  "stats": {
+    "categories": 6,
+    "notes": 3
+  },
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "AI",
+        "children": [
+          {
+            "name": "Agent",
+            "children": [],
+            "notes": [
+              {
+                "title": "[Agent] Basic Understanding of Agent Systems",
+                "path": "notes/AI/Agent/[Agent] Basic Understanding of Agent Systems.md",
+                "slug": "AI-Agent-[Agent] Basic Understanding of Agent Systems"
+              }
+            ]
+          },
+          {
+            "name": "CV",
+            "children": [],
+            "notes": []
+          }
+        ],
+        "notes": []
+      },
+      {
+        "name": "SE",
+        "children": [
+          {
+            "name": "Algebra",
+            "children": [],
+            "notes": [
+              {
+                "title": "linear-equations",
+                "path": "notes/SE/Algebra/linear-equations.md",
+                "slug": "SE-Algebra-linear-equations"
+              }
+            ]
+          },
+          {
+            "name": "Calculus",
+            "children": [],
+            "notes": [
+              {
+                "title": "derivatives",
+                "path": "notes/SE/Calculus/derivatives.md",
+                "slug": "SE-Calculus-derivatives"
+              }
+            ]
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "notes": []
+  }
+}
