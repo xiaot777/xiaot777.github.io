@@ -1,4 +1,4 @@
-# Agent
+# 1. Agent
 An agent is defined as any entity that can perceive its **Environment** through **Sensors**, and autonomously take **Actions** through **Actuators** to achieve specific goals.
 
 1. Its intelligence maily comes from **Autonomy** - it can make independent decisions based on its perceptions and internal state to achieve its design goals. <br>
@@ -19,7 +19,7 @@ An agent does not complete tasks in one go but interacts with the environment th
 
 Action is not the end of the loop. The agent's action causes a **state change** in the environment, which then produces a new **observation** as result feedback and is captured by the agent's **perception** system in the next round of the loop, forming a continuous "perceive-think-act-observe" closed loop. 
 
-# Aget Framework
+# 2. Aget Framework
 An Agent framework will provide a general Agent base class or executor that encapsulates the Agent Loop.
 
 A robust agent system should consist of multiple loosely coupled modules:
@@ -28,7 +28,7 @@ A robust agent system should consist of multiple loosely coupled modules:
 3. **Memory Layer**: Handles short-term and long-term memory, can switch different memory strategies according to needs (such as sliding window, summary memory). 
 
 
-# Agent Communication Protocol
+# 3. Agent Communication Protocol
 Agent work faces three fundamental limitations. 
 1. **Tool Integration**: Whenever we need to access a new external service (such as GitHub API, database, file system), we must write a specialized Tool class. This is not only labor-intensive, but tools written by different developers cannot be compatible with each other. Second is the 
 2. **Capability Expansion**: The agent's capabilities are limited to the predefined tool set and cannot dynamically discover and use new services. 
@@ -82,7 +82,10 @@ agent.add_tool(github_mcp)
 agent.add_tool(database_mcp)
 ```
 
-## MCP Arichitecture
+
+
+## 3.1 MCP Arichitecture
+
 The MCP is based on a **client-server architecture**.
 ![MCP Architecture](https://mcpcat.io/images/blog/mcp-architecture.png)
 Suppose you are using Claude Desktop and asking: "What documents are on my desktop?":
@@ -93,7 +96,10 @@ Suppose you are using Claude Desktop and asking: "What documents are on my deskt
 3. **Server**: are lightweight programs that each expose specific capabilities through MCP. <br>
    The file system MCP Server is called, executes the actual file scanning operation, accesses the desktop directory, and returns the list of found documents.
 
-## How does MCP work?
+
+
+## 3.2 How does MCP work?
+
 ![the interaction between an MCP Client and an MCP Server](https://global.discourse-cdn.com/dlai/optimized/3X/3/1/315fa3ff153faf1700fd84260ef2d2bc78264e5f_2_1035x543.jpeg)
 1. **Tools** are actions or functions that the client can call. (methods to access data)
 2. **Resources** are read-only data exposed by the server. (data)
