@@ -111,10 +111,12 @@ Key drivers
 
 ### Time To First Token (TTFT)
 TTFT = time from request sent → first token generated.
+
 多久看到第一个字（“响应性”）
 
 ###  Tokens Per Second (TPS)
 TPS measures generation speed after the first token.
+
 输出展开速度（“流畅性”）
 
 # 2. Resource Utilisation
@@ -123,6 +125,7 @@ The rate of time CUDA kernels are running
 
 ## 2.2 VRAM Usage
 VRAM - Video Random Access Memory - 显存
+
 In locally deployed LLM inference, VRAM is mainly consumed by four components:
 1.  Model Weights - The parameters of the neural network
 2.  KV Cache - Stores attention key/value tensors for each token
