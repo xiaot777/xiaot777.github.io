@@ -1,6 +1,6 @@
 The exhaust and silencer should stop noise and gases from entering the car. The engine being in good condition will reduce the overall amount of pollution exiting the exhaust, and will ensure that there are no unnecessary mechanical and combustion noises. Of course, this question is moot if you have an electric vehicle as they have electric motors and no exhaust.
 
-GVM stands for Gross Vehicle Mass, or how heavy the vehicle is. 车辆的最大总质量；指车辆在完全满载时允许的最高重量
+
 
 
 
@@ -47,7 +47,9 @@ Regardless of the direction you are approaching, you must slow down to 20kph if 
 
 
 
-# Behaviors
+# Core
+
+## Behaviors
 
 | 中文速记                                                     | en                                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -55,7 +57,7 @@ Regardless of the direction you are approaching, you must slow down to 20kph if 
 | 消防局前红灯闪烁要停车等待红灯停止闪烁                       | Red lights may operate outside airports and fire stations and you must stop until they have stopped flashing. |
 | 免提电话不短信                                               | You can only talk(no text) on a cellphone while driving if you have a full hands-free phone kit 免提电话装置. |
 | 转向过度是转向太快后轮打滑                                   | Oversteer can be caused by turning too fast, which causes the rear wheels to start skidding. |
-| 如果你想学习在漂移或打滑时控制车辆，这只能在赛道上进行     | If you want to learn car control when drifting 漂移 or skidding 打滑, this should only be done on a track赛道. |
+| 如果你想学习在漂移或打滑时控制车辆，这只能在赛道上进行       | If you want to learn car control when drifting 漂移 or skidding 打滑, this should only be done on a track赛道. |
 | 夜间拖车亮红灯                                               | A trailer or towed vehicle must show at least one red light for night driving. |
 | 两条车道并且安全，可以从左侧超车                             | If there are two lanes on your side of the road and it's safe to do so, you can pass on the left |
 | 前车右转可左侧超车                                           | If a vehicle is indicating right and has moved over toward the right of their lane, are in another lane or in a turning bay, then you can overtake on the left if it's safe to proceed and your vehicle will fit through the gap. |
@@ -65,20 +67,21 @@ Regardless of the direction you are approaching, you must slow down to 20kph if 
 | 警笛、消防车靠边让                                           | What must you do when you hear a siren 警笛 or see red flashing lights from an ambulance or fire engine 消防车?<br />Do all you can to allow it to pass. Pulling to the left gives the vehicle more room and slowing down shortens the 'time exposed to danger', i.e. the time it takes to overtake you |
 | 中央条形间隔区等待转弯                                       | You can use a flush median to wait to move into a gap in the traffic flow after you've turned right onto the road, or to slow down and wait before turning right from the road. You can also use them when overtaking cyclists, but not other motorists. |
 | 负载要绑定                                                   | Loads must be secure otherwise they could fall and cause a crash. You will be fined if you are caught with an insecure load |
-| 负载<br />1/learner 4500kg<br />full 6000kg                  | The maximum combined weight of a vehicle plus trailer must not exceed 4500kg on a Class 1 learners or restricted licence (this means the rated maximum weight of the trailer, not necessarily what you are carrying). Your vehicle plus trailer can be up to 6000kg on a full licence. |
+| 负载<br />learner 4500kg<br />full 6000kg                    | The maximum combined weight of a vehicle plus trailer must not exceed 4500kg on a Class 1 learners or restricted licence (this means the rated maximum weight of the trailer, not necessarily what you are carrying). Your vehicle plus trailer can be up to 6000kg on a full licence. |
+| 在下坡停车                                                   | 1. Apply the handbrake<br />2 Turning the wheels towards the kerb means if the handbrake/parking brake fails the car will come to rest against the kerb and won't roll any further. <br> /3. Putting it in reverse if it has manual transmission(park for automatic transmission) - will provide a lot of engine braking. |
 
 
 
 ## Theory
 
-| 中文速记                | en                                                           |      |
-| ----------------------- | ------------------------------------------------------------ | ---- |
-| 限制性驾照载人          | 1. 如果乘客是您的配偶/同居伴侣、孩子、与您同住且是受益人的亲戚，或者您是主要照顾者，您可以在早上 5 点至晚上 10 点之间在没有监督人的情况下载运乘客。You can carry passengers without a supervisor between 5am and 10pm if they are your spouse/de facto partner, your children, a relative who lives with you and is a beneficiary, or someone for whom you are the primary caregiver. <br />2. 如果前排乘客座位上有一名持有正式驾驶执照的主管（他们必须持有执照至少 2 年），您也可以随时载客。You can also carry passengers at any time if you have a supervisor with a full driver's licence in the front passenger seat (they must have had their licence for at least 2 years). |      |
-| learner driver前后挂L牌 | They must not obstruct your view and should be clearly visible to other road users if you're driving a van, car or ute. |      |
+| 中文速记                                                     | en                                                           |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 限制性驾照载人                                               | 1. 如果乘客是您的配偶/同居伴侣、孩子、与您同住且是受益人的亲戚，或者您是主要照顾者，您可以在早上 5 点至晚上 10 点之间在没有监督人的情况下载运乘客。You can carry passengers without a supervisor between 5am and 10pm if they are your spouse/de facto partner, your children, a relative who lives with you and is a beneficiary, or someone for whom you are the primary caregiver. <br />2. 如果前排乘客座位上有一名持有正式驾驶执照的主管（他们必须持有执照至少 2 年），您也可以随时载客。You can also carry passengers at any time if you have a supervisor with a full driver's licence in the front passenger seat (they must have had their licence for at least 2 years). |      |
+| learner driver前后挂L牌                                      | They must not obstruct your view and should be clearly visible to other road users if you're driving a van, car or ute. |      |
+| GVM, Gross Vehicle Mass, or how heavy the vehicle is. 车辆的最大总质量； | GVM stands for Gross Vehicle Mass, or how heavy the vehicle is. 车辆的最大总质量；指车辆在完全满载时允许的最高重量 |      |
+| CLASS 1 驾照类型                                             | A Class 1 licence is required to drive a car.                |      |
 
-A Class 1 licence is required to drive a car.
-
-You must be able to stop in the full length of the road you can see in front of you at night. However, if the road has no lanes, you should be able to stop in half the length of the road you can see ahead.
+​	
 
 Keeping your eyes to the left can help you from being blinded by the headlights of the oncoming vehicle. It means you won't be looking directly into the light. Make sure you slow down as well because your forward visibility will be reduced.
 
@@ -98,7 +101,7 @@ Keeping your eyes to the left can help you from being blinded by the headlights 
 | learner driver驾驶没有L牌，扣25分，罚100                     | If you are a learner driver and you are caught driving without L plates on your car or motorbike you could receive a $100 fine and have 25 demerit points applied to your driver licence. |
 | 20岁以下酒驾，扣50分，罚200                                  | Drivers under 20 years old must not have any alcohol in their system. If you have more than 150mcg/litre of breath or 30mg per 100ml of blood then you could be disqualified from driving, given 50 demerit points and either fined or sent to prison |
 | 超速11-20码，扣20分                                          | You receive 20 demerit points for exceeding the speed limit by 11-20kph. |
-| 无证驾驶扣车拘留28天                                         | A police officer can impound 扣押 your vehicle on the spot if you are caught driving while disqualified, with a suspended licence 吊销（暂停）驾驶执照, or if you have an expired licence (or no licence) and have been stopped before for that offence and been forbidden to drive. You could face court-imposed penalties and your vehicle could be impounded for 28 days. |
+| impound 扣押 your vehicle<br />1. 被取消驾驶资格（disqualified）期间驾驶<br />2. 驾照被吊销（suspended licence）期间驾驶<br />3. 驾照已过期（expired licence）<br />4. 没有驾照（no licence）<br />可能会面临法院判处罚款或其他处罚，车扣押28天 | A police officer can impound 扣押 your vehicle on the spot if you are caught driving：<br />1.  while disqualified<br />2. with a suspended licence 吊销（暂停）驾驶执照<br />3. or if you have an expired licence (or no licence) and have been stopped before for that offence and been forbidden to drive. <br />You could face court-imposed penalties and your vehicle could be impounded for 28 days. |
 | 拒绝酒精测试，最高罚4500，监禁3月，6个月不能驾驶             | Refusing to give blood is a serious offence. You may be sent to prison for up to three months, fined up to $4500 and disqualified from driving for at least six months. |
 | 20岁以上驾驶者酒精含量最高250mcg/litre<br />20岁以下0酒精    | 250mcg/litre of breath is the maximum permissible level, although it is recommended you don't drink at all before driving as any alcohol consumption affects your reaction times. |
 | 司机负责15岁以下乘客系好安全带<br />15岁以上自己负责         | The driver is responsible for passengers under the age of 15. |
@@ -114,6 +117,7 @@ Keeping your eyes to the left can help you from being blinded by the headlights 
 | 轮胎漏气                         | You should only drive at 80kph (or less if the wheel has a speed rating), and only drive as far as it takes to get to a place where the tyre can be repaired.<br />您只能以 80 公里/小时的速度行驶，并且只能行驶到可以修理轮胎的地方。 |
 | 高速公路上抛锚                   | If your vehicle breaks down on a motorway 高速公路 you should open your boot 后备箱 and bonnet  引擎盖<br />hang something white on your car door handle if possible to indicate you need help<br />Call for assistance<br />put on your hazard warning lights<br />keep well away from the motorway. |
 | 引擎盖弹起                       | Using the gap under the bonnet, and your vision through the side window, brake gently and pull over to the left. |
+| oversteer 转向过度               | Oversteer can be caused by turning too fast, which causes the rear wheels to start skidding. |
 
 
 
@@ -152,7 +156,7 @@ The basic give way rules are:
 
 
 
-- A driveway is treated like an uncontrolled intersection.
+- A driveway/entrance to public car park is treated like an uncontrolled intersection.
 - If you are turning at an intersection, give way to all vehicles not turning.
 - If you deviate from the centre line, generally you have to give way
 - At a stop sign, you have the least priority and all other vehicles have the right of way before you, unless they are at stop signs, too, in which case the give way rules apply
@@ -172,14 +176,14 @@ If you are going straight through a roundabout, don't signal as you come up to t
 
 # Timing Rules
 
-| situation                                      | timing                                                       | operations                                                   |
-| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| produce smoke<br />检查冒烟5s<br />路上冒烟10s | 5 seconds in an inspection 在检查过程中<br />10 seconds on the road | A vehicle can only produce smoke for a maximum of 5 seconds in an inspection and 10 seconds on the road. Smoky vehicles cause unnecessary pollution. This also applies to smoke caused by loss of traction, which in itself is an offence. |
-| two-second rule<br />2s原则-跟车               | safe following distance                                      | Two seconds is the minimum distance you should follow behind a vehicle in front in good conditions. |
-| three-second rule<br />3s原则-转弯、超车       | turning; overtaking                                          | When you are turning to the right, give 3 seconds' warning.<br />You should signal for 3 seconds before passing another vehicle. |
-| four-second rule<br />4s原则-结霜、拖车、下雨  | frosty conditions                                            | When it's wet and frosty it can take up to twice as long to stop, so you need to observe the four-second rule. This also applies anytime if you're towing a trailer<br />Doubling the usual two-second rule to four seconds is the best way to deal with the extra stopping distance that towing a trailer requires. |
-| 12s原则-看路                                   | look 6 cars ahead                                            | If you've been observing the 12 second rule (looking around six cars ahead) you'll have a good idea of what the road is like up ahead, giving you enough time to anticipate any obstacles. |
-| 车祸受伤24h内报警                              | call police after crash                                      | If anybody is hurt in a crash, the driver must tell a police officer as soon as possible but within 24 hours. |
+| situation                                         | timing                                                       | operations                                                   |
+| ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| produce smoke<br />检查冒烟5s<br />路上冒烟10s    | 5 seconds in an inspection 在检查过程中<br />10 seconds on the road | A vehicle can only produce smoke for a maximum of 5 seconds in an inspection and 10 seconds on the road. Smoky vehicles cause unnecessary pollution. This also applies to smoke caused by loss of traction, which in itself is an offence. |
+| two-second rule<br />2s原则-跟车                  | safe following distance                                      | Two seconds is the minimum distance you should follow behind a vehicle in front in good conditions. |
+| three-second rule<br />3s原则-转弯、超车          | turning; overtaking                                          | When you are turning to the right, give 3 seconds' warning.<br />You should signal for 3 seconds before passing another vehicle. |
+| four-second rule<br />4s原则-结霜、下雨、拖车跟车 | frosty conditions                                            | When it's wet and frosty it can take up to twice as long to stop, so you need to observe the four-second rule. This also applies anytime if you're towing a trailer<br />Doubling the usual two-second rule to four seconds is the best way to deal with the extra stopping distance that towing a trailer requires. |
+| 12s原则-看路                                      | look 6 cars ahead                                            | If you've been observing the 12 second rule (looking around six cars ahead) you'll have a good idea of what the road is like up ahead, giving you enough time to anticipate any obstacles. |
+| 车祸受伤24h内报警                                 | call police after crash                                      | If anybody is hurt in a crash, the driver must tell a police officer as soon as possible but within 24 hours. |
 
 
 
@@ -197,9 +201,12 @@ If you are going straight through a roundabout, don't signal as you come up to t
 | load extend - side<br />负载不能超过中心线1.275m             | up to 1.275m | A load may extend up to 1.275m either side of the centre line of your vehicle. |
 | 负载不能超过后盖4m，前盖3m                                   |              | You can carry a load that extends 4m behind the rear axle 后盖 and 3m in front of the front edge of the front seat. |
 | 最小胎面深度3mm                                              |              | Wet weather performance drops off rapidly once tread depth is below 3mm |
-|                                                              |              | On a road with lanes, you must be able to stop in the length of clear road you can see in front of you |
+| 晚上开车                                                     |              | If the road has no lanes, you should be able to stop in half the length of the road you can see ahead.<br />On a road with lanes, you must be able to stop in the length of clear road you can see in front of you |
 
-
+- 50m 公交车道
+- 100m 超车、开灯
+- 1.5m  自行车距
+- 负载 前3m 后4m 中1.275m
 
 
 
@@ -211,7 +218,7 @@ The definition of a road is quite broad. It includes streets, motorways, beaches
 
 | road               | definition                                                   |
 | ------------------ | ------------------------------------------------------------ |
-| lane               | where you drive<br />be formed either between kerbs, verges, painted lines, a kerb and painted line or a verge and painted line |
+| lane               | where you drive on<br />be formed either between kerbs, verges, painted lines, a kerb and painted line or a verge and painted line |
 | verge              | grass edge of a road（边缘）                                 |
 | pathway            | where pedestrians walk                                       |
 | kerb               | edge of the road made from raised concrete or stone          |
@@ -240,11 +247,12 @@ The definition of a road is quite broad. It includes streets, motorways, beaches
 
 
 - To help you from being blinded by the headlights of an oncoming vehicle, you should look to the left-hand side of the road. 被灯晃看左边
+- please turn on Park(side) lights [turn on automatically], Fog and rear for lights, and Dipped headlights when driving in fog 
 
 
 
 
-# Speed
+# Speed   
 
 There might be debris on the road and police and others attending. 20kph is the safest speed to pass an accident or CRASG sign.
 
@@ -259,6 +267,22 @@ There might be debris on the road and police and others attending. 20kph is the 
 
 
 # Signals
+
+yellow line - stop sign
+
+white line - give way sign
+
+broken yellow line - no parking
+
+courtesy crossing:
+
+> Courtesy crossings are usually made of bricks or paving and are often raised above the level of the road. They are not official pedestrian crossings, but they do provide a place where drivers can stop safely to allow pedestrians to cross.
+
+![img](https://www.drivingtests.co.nz/media/question-images/courtesy-crossing.jpg)
+
+You can pass a vehicle in this situation as long as you stay to the left of the yellow line. Your wheels must not cross the yellow line. This allows you to get past slow vehicles which would normally pull to the left to help you overtake, e.g. tractors.
+
+![img](https://www.drivingtests.co.nz/media/question-images/pass-solid-yellow-line.jpg)
 
 the right side of a bridge:
 
@@ -276,21 +300,21 @@ the left side of the road:
 
 ![](https://www.drivingtests.co.nz/media/question-images/marker-post-bg.gif)
 
-fire hydrant: 消防栓
+fire hydrant 消防栓: - can park if you stay and can move
 
 ![](https://www.drivingtests.co.nz/media/question-images/hydrant.gif)
 
 白色菱形 - 前方有人行横道 Many, but not all, pedestrian crossings will have a diamond painted on them
 
-白色猫眼中心线 Cat's eye in center line of road
+白色猫眼 - 中心线 Cat's eye in center line of road
 
 ![](https://www.drivingtests.co.nz/media/question-images/reflector-white.gif)
 
-黄色猫眼不能超车 yellow cat's eyes then you know you are not allowed to overtake/pass
+黄色猫眼 - 不能超车 yellow cat's eyes then you know you are not allowed to overtake/pass
 
 ![](https://www.drivingtests.co.nz/media/question-images/reflector-yellow.gif)
 
-蓝色猫眼消防栓 A blue reflector marks the location of a fire hydrant
+蓝色猫眼 - 消防栓 A blue reflector marks the location of a fire hydrant
 
 ![](https://www.drivingtests.co.nz/media/question-images/reflector-blue.gif)
 
@@ -304,11 +328,15 @@ keep left (i.e. drive around the roundabout clockwise)
 
 ![](https://www.drivingtests.co.nz/media/question-images/keep-left-sign.gif)
 
+can't stop in the next 4kms
+
+![img](https://www.drivingtests.co.nz/media/question-images/no-stop-4k-sign.gif)
+
 Any vehicle can park for 30 minutes to the right of the sign.
 
 
 
-Any vehicle can stop here to unload goods or people, but it must not be left unattended for more than five minutes. As long as the loading is continuing and the vehicle is attended it can remain in the car park for more than 5 minutes. If the sign said '5 MIN MAXIMUM' then the vehicle would have to be moved within 5 minutes.
+Any vehicle can stop here to unload goods or people, but it must not **be left unattended** for more than five minutes. As long as the loading is continuing and the vehicle is attended it can remain in the car park for more than 5 minutes. If the sign said '5 MIN MAXIMUM' then the vehicle would have to be moved within 5 minutes.
 
 ![](https://www.drivingtests.co.nz/media/question-images/p5-sign.gif)
 
@@ -322,13 +350,21 @@ You can't park here between 7-9am:
 
 the end of no-stopping zone:
 
+**Lights**
 
+yellow traffic signals are flashing:
+
+There is something wrong with the lights, so proceed with caution and apply the give way rules, unless police are directing traffic, in which case follow their signals
+
+![img](https://www.drivingtests.co.nz/media/question-images/flashing-yellow-traffic-light.gif)
 
 黄灯维修车 Maintenance vehicles have flashing yellow lights
 
 ![](https://www.drivingtests.co.nz/media/question-images/service-flash-lights.gif)
 
-红蓝灯警车 Police vehicles have red and blue lights
+红蓝灯警车 Police vehicles have red and blue lights:
+
+> You must **pull over and stop** unless the police officer overtakes you as you pull over and continues on its way.
 
 ![](https://www.drivingtests.co.nz/media/question-images/police-flash-lights.gif)
 
@@ -390,11 +426,17 @@ temporary speed limit
 
 <img src="https://www.drivingtests.co.nz/media/question-images/bus-only-sign.jpg" style="zoom:40%;" />
 
+T2 - This is a transit lane which can only be used by passenger service vehicles, cycles, motorcycles and vehicles carrying at least two people.
+
+![img](https://www.drivingtests.co.nz/media/question-images/transit-lane-sign.gif)
+
 Large vehicles such as trucks and buses often can't maintain their speed on a **long uphill** stretch of road, so passing bays are provided where there's not enough room to have a passing lane. Passing bays can sometimes be found on winding roads where there are few natural passing opportunities.
 
 ![](https://www.drivingtests.co.nz/media/question-images/slow-vehicle-bay.png)
 
+These lights allow buses, trams or bicycles to go through a red light before it turns green for all other traffic.
 
+![img](https://www.drivingtests.co.nz/media/question-images/special-traffic-signals.gif)
 
 # Parking
 
