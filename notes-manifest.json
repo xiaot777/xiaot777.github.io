@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-14T04:02:43.350Z",
+  "generated": "2026-07-02T03:42:31.396Z",
   "stats": {
-    "categories": 2,
-    "notes": 1
+    "categories": 8,
+    "notes": 9
   },
   "tree": {
     "name": "root",
@@ -18,6 +18,82 @@
                 "title": "[Agent] Basic Understanding of Agent Systems",
                 "path": "notes/AI/Agent/[Agent] Basic Understanding of Agent Systems.md",
                 "slug": "AI-Agent-[Agent] Basic Understanding of Agent Systems"
+              },
+              {
+                "title": "[LLM]  Benchmarking Locally Deployed LLMs",
+                "path": "notes/AI/Agent/[LLM]  Benchmarking Locally Deployed LLMs.md",
+                "slug": "AI-Agent-[LLM]  Benchmarking Locally Deployed LLMs"
+              },
+              {
+                "title": "[MCP] Designing Strategies of Effective Tools for Agents",
+                "path": "notes/AI/Agent/[MCP] Designing Strategies of Effective Tools for Agents.md",
+                "slug": "AI-Agent-[MCP] Designing Strategies of Effective Tools for Agents"
+              }
+            ]
+          },
+          {
+            "name": "CV",
+            "children": [],
+            "notes": [
+              {
+                "title": "[CV] Object Detection",
+                "path": "notes/AI/CV/[CV] Object Detection.md",
+                "slug": "AI-CV-[CV] Object Detection"
+              }
+            ]
+          }
+        ],
+        "notes": []
+      },
+      {
+        "name": "SE",
+        "children": [
+          {
+            "name": "DevOps",
+            "children": [],
+            "notes": [
+              {
+                "title": "[DevOps] Azure DevOps Git Control",
+                "path": "notes/SE/DevOps/[DevOps] Azure DevOps Git Control.md",
+                "slug": "SE-DevOps-[DevOps] Azure DevOps Git Control"
+              },
+              {
+                "title": "[DevOps] CI+CD",
+                "path": "notes/SE/DevOps/[DevOps] CI+CD.md",
+                "slug": "SE-DevOps-[DevOps] CI+CD"
+              },
+              {
+                "title": "[DevOps] Git Operations",
+                "path": "notes/SE/DevOps/[DevOps] Git Operations.md",
+                "slug": "SE-DevOps-[DevOps] Git Operations"
+              }
+            ]
+          },
+          {
+            "name": "Development",
+            "children": [],
+            "notes": [
+              {
+                "title": "[.Net] Basic Understanding of C#",
+                "path": "notes/SE/Development/[.Net] Basic Understanding of C#.md",
+                "slug": "SE-Development-[.Net] Basic Understanding of C#"
+              }
+            ]
+          }
+        ],
+        "notes": []
+      },
+      {
+        "name": "Skills",
+        "children": [
+          {
+            "name": "Driving",
+            "children": [],
+            "notes": [
+              {
+                "title": "[Driving] NZ DRIVING TEST",
+                "path": "notes/Skills/Driving/[Driving] NZ DRIVING TEST.md",
+                "slug": "Skills-Driving-[Driving] NZ DRIVING TEST"
               }
             ]
           }

@@ -239,7 +239,9 @@ async function openNote(rawPath) {
   body.innerHTML = '<div class="tree-loading" style="padding:24px 0"><div class="spinner"></div><span>Loading…</span></div>';
 
   try {
-    const res = await fetch(encodeURI(path));
+    // encodeURI leaves '#' untouched, but a '#' in a filename (e.g. "C#.md")
+    // would be parsed as a URL fragment and truncate the request. Encode it.
+    const res = await fetch(encodeURI(path).replace(/#/g, '%23'));
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const md = await res.text();
 
