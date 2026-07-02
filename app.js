@@ -249,8 +249,12 @@ async function openNote(rawPath) {
     const html = marked.parse(md);
     body.innerHTML = html;
 
-    // Syntax highlight code blocks
-    body.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+    // Render mermaid diagrams first (so hljs doesn't highlight their source)
+    await renderMermaidBlocks(body);
+
+    // Syntax highlight remaining code blocks (skip mermaid)
+    body.querySelectorAll('pre code:not(.language-mermaid)')
+        .forEach(block => hljs.highlightElement(block));
 
     // Build TOC from headings
     renderTOC(body);
