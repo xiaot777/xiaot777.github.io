@@ -284,6 +284,40 @@ function humanize(str) {
   return str.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 
+// ── Mermaid diagrams inside notes ─────────────────────────────
+// marked renders ```mermaid fences as <pre><code class="language-mermaid">.
+// Convert each of those into a rendered SVG diagram.
+async function renderMermaidBlocks(body) {
+  const blocks = body.querySelectorAll('pre code.language-mermaid');
+
+  for (const code of blocks) {
+    const pre = code.closest('pre');
+    // Use the raw text content as the mermaid definition.
+    const def = code.textContent;
+    const id  = 'mmd-' + Math.random().toString(36).slice(2, 10);
+
+    try {
+      const { svg } = await mermaid.render(id, def);
+      const wrapper = document.createElement('div');
+      wrapper.className = 'mermaid-diagram';
+      wrapper.innerHTML = svg;
+      const svgEl = wrapper.querySelector('svg');
+      if (svgEl) {
+        svgEl.style.maxWidth = '100%';
+        svgEl.style.height   = 'auto';
+      }
+      pre.replaceWith(wrapper);
+    } catch (err) {
+      console.error('Mermaid render error:', err);
+      // Leave the original code block in place, but mark it so hljs skips it.
+      const errEl = document.createElement('div');
+      errEl.className = 'mermaid-error';
+      errEl.textContent = `Mermaid error: ${err.message}`;
+      pre.parentNode.insertBefore(errEl, pre);
+    }
+  }
+}
+
 // ── Table of Contents ─────────────────────────────────────
 function renderTOC(body) {
   const tocNav = document.getElementById('toc-nav');
